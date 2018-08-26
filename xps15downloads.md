@@ -11,8 +11,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/05/2017  12:07 PM    <DIR>          ubuntu-17.10
 01/24/2018  06:27 PM    <DIR>          raspbian
 03/15/2018  08:41 AM    <DIR>          tmp
-07/26/2018  07:17 AM    <DIR>          ..
-07/26/2018  07:17 AM    <DIR>          .
+08/25/2018  01:11 PM    <DIR>          ..
+08/25/2018  01:11 PM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -251,8 +251,22 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 07/26/2018  07:13 AM                84 ideaIC-2018.2.exe.sha256
 07/26/2018  07:16 AM       581,977,565 ideaIC-2018.2.win.zip
 07/26/2018  07:17 AM                88 ideaIC-2018.2.win.zip.sha256
-             238 File(s) 33,302,165,231 bytes
-               8 Dir(s)  371,060,432,896 bytes free
+08/25/2018  10:54 AM        99,676,981 grails-3.3.7.zip
+08/25/2018  10:55 AM        99,680,765 grails-3.3.8.zip
+08/25/2018  10:55 AM         9,305,672 grails-docs-3.3.8.zip
+08/25/2018  11:03 AM       540,417,528 ideaIU-2018.2.2.exe
+08/25/2018  11:04 AM                86 ideaIU-2018.2.2.exe.sha256
+08/25/2018  11:05 AM                90 ideaIU-2018.2.2.win.zip.sha256
+08/25/2018  11:06 AM       707,758,758 ideaIU-2018.2.2.win.zip
+08/25/2018  11:08 AM       441,889,400 ideaIC-2018.2.2.exe
+08/25/2018  11:08 AM                86 ideaIC-2018.2.2.exe.sha256
+08/25/2018  11:11 AM       582,229,011 ideaIC-2018.2.2.win.zip
+08/25/2018  11:12 AM                90 ideaIC-2018.2.2.win.zip.sha256
+08/25/2018  11:22 AM            17,001 incubating-netbeans-java-9.0-bin.zip
+08/25/2018  11:22 AM               874 incubating-netbeans-java-9.0-bin.zip.asc
+08/25/2018  11:24 AM                79 incubating-netbeans-java-9.0-bin.zip.sha1
+             252 File(s) 35,783,141,652 bytes
+               8 Dir(s)  373,852,282,880 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
