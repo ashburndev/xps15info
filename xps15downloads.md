@@ -11,8 +11,8 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 11/05/2017  12:07 PM    <DIR>          ubuntu-17.10
 01/24/2018  06:27 PM    <DIR>          raspbian
 03/15/2018  08:41 AM    <DIR>          tmp
-08/26/2018  09:39 AM    <DIR>          ..
-08/26/2018  09:39 AM    <DIR>          .
+08/29/2018  07:05 AM    <DIR>          ..
+08/29/2018  07:05 AM    <DIR>          .
 06/08/2017  08:22 AM         1,130,328 ChromeSetup.exe
 06/08/2017  08:26 AM           246,056 Firefox Setup Stub 53.0.3.exe
 06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
@@ -266,8 +266,39 @@ C:\Users\David Holberton\Downloads>dir /o:gd
 08/26/2018  09:37 AM       169,301,845 incubating-netbeans-java-9.0-bin(1).zip
 08/26/2018  09:38 AM               874 incubating-netbeans-java-9.0-bin.zip.asc
 08/26/2018  09:39 AM                79 incubating-netbeans-java-9.0-bin.zip.sha1
-             253 File(s) 35,952,443,497 bytes
-               8 Dir(s)  373,663,109,120 bytes free
+08/29/2018  06:53 AM            37,537 KEYS.txt
+08/29/2018  06:53 AM        10,211,559 apache-tomcat-8.5.33.zip
+08/29/2018  06:54 AM               849 apache-tomcat-8.5.33.zip.asc
+08/29/2018  06:54 AM               154 apache-tomcat-8.5.33.zip.sha512
+08/29/2018  06:54 AM         9,621,331 apache-tomcat-8.5.33.tar.gz
+08/29/2018  06:54 AM               849 apache-tomcat-8.5.33.tar.gz.asc
+08/29/2018  06:55 AM               157 apache-tomcat-8.5.33.tar.gz.sha512
+08/29/2018  06:55 AM        10,936,767 apache-tomcat-8.5.33-windows-x86.zip
+08/29/2018  06:55 AM               849 apache-tomcat-8.5.33-windows-x86.zip.asc
+08/29/2018  06:55 AM               166 apache-tomcat-8.5.33-windows-x86.zip.sha512
+08/29/2018  06:56 AM        11,232,621 apache-tomcat-8.5.33-windows-x64.zip
+08/29/2018  06:56 AM               849 apache-tomcat-8.5.33-windows-x64.zip.asc
+08/29/2018  06:56 AM               166 apache-tomcat-8.5.33-windows-x64.zip.sha512
+08/29/2018  06:57 AM         9,895,312 apache-tomcat-8.5.33.exe
+08/29/2018  06:57 AM               849 apache-tomcat-8.5.33.exe.asc
+08/29/2018  06:57 AM               154 apache-tomcat-8.5.33.exe.sha512
+08/29/2018  07:01 AM        10,514,400 apache-tomcat-9.0.11.zip
+08/29/2018  07:02 AM               849 apache-tomcat-9.0.11.zip.asc
+08/29/2018  07:02 AM               154 apache-tomcat-9.0.11.zip.sha512
+08/29/2018  07:02 AM         9,904,915 apache-tomcat-9.0.11.tar.gz
+08/29/2018  07:03 AM               849 apache-tomcat-9.0.11.tar.gz.asc
+08/29/2018  07:03 AM               157 apache-tomcat-9.0.11.tar.gz.sha512
+08/29/2018  07:03 AM        11,239,606 apache-tomcat-9.0.11-windows-x86.zip
+08/29/2018  07:03 AM               849 apache-tomcat-9.0.11-windows-x86.zip.asc
+08/29/2018  07:04 AM               166 apache-tomcat-9.0.11-windows-x86.zip.sha512
+08/29/2018  07:04 AM        11,535,460 apache-tomcat-9.0.11-windows-x64.zip
+08/29/2018  07:04 AM               849 apache-tomcat-9.0.11-windows-x64.zip.asc
+08/29/2018  07:04 AM               166 apache-tomcat-9.0.11-windows-x64.zip.sha512
+08/29/2018  07:04 AM        10,246,376 apache-tomcat-9.0.11.exe
+08/29/2018  07:04 AM               849 apache-tomcat-9.0.11.exe.asc
+08/29/2018  07:05 AM               154 apache-tomcat-9.0.11.exe.sha512
+             284 File(s) 36,057,829,465 bytes
+               8 Dir(s)  373,330,554,880 bytes free
 
 C:\Users\David Holberton\Downloads>
 ```
