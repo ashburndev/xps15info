@@ -155,3 +155,29 @@ C:\LocalApps\Java>dir /o:gd
 
 C:\LocalApps\Java>
 ```
+
+```
+C:\Users\David Holberton\Downloads>dir  /o:gd jdk-*-x64.exe
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+06/08/2017  08:35 AM       207,649,848 jdk-8u131-windows-x64.exe
+08/02/2017  06:21 AM       207,382,584 jdk-8u144-windows-x64.exe
+08/02/2017  06:29 AM       207,387,192 jdk-8u141-windows-x64.exe
+08/02/2017  06:31 AM       205,004,856 jdk-8u121-windows-x64.exe
+08/02/2017  06:35 AM       204,607,032 jdk-8u112-windows-x64.exe
+08/02/2017  06:37 AM       204,139,576 jdk-8u102-windows-x64.exe
+08/02/2017  06:39 AM       146,893,216 jdk-7u80-windows-x64.exe
+08/02/2017  06:40 AM       146,861,984 jdk-7u79-windows-x64.exe
+03/15/2018  08:01 AM       216,544,312 jdk-8u161-windows-x64.exe
+03/15/2018  08:04 AM       216,804,920 jdk-8u162-windows-x64.exe
+05/30/2018  06:11 AM       217,342,912 jdk-8u171-windows-x64.exe
+05/30/2018  06:12 AM       217,370,560 jdk-8u172-windows-x64.exe
+07/24/2018  07:34 AM       212,582,768 jdk-8u181-windows-x64.exe
+              13 File(s)  2,610,571,760 bytes
+               0 Dir(s)  371,693,105,152 bytes free
+
+C:\Users\David Holberton\Downloads>
+```
