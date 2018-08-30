@@ -88,7 +88,7 @@ Binary Distributions
 08/29/2018  07:05 AM               154 apache-tomcat-9.0.11.exe.sha512
 ```
 
-Looking further into the 32-bit vs 64-bit tomcat issue, I decided to look at the Windows Registry for the JDK keys associated with my installation of (multiple version) Oracle's Java JDK.  Note that I have never installed a 32-bit version of the JDK on my Windows 10 Dell XPS15 laptops.  Also note that I have never explicitly installed the Java JRE on this laptop (though installing the JDK results in the installation of the JRE).
+Looking further into the 32-bit vs 64-bit tomcat issue, I decided to look at the Windows Registry for the JDK keys associated with my installation of (multiple releases of) Oracle's Java JDK.  Note that I have never installed a 32-bit version of the JDK on my Windows 10 Dell XPS15 laptop.  Also note that I have never explicitly installed the Java JRE on this laptop (though installing the JDK results in the installation of the JRE).
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.8.0_131
