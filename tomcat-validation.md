@@ -180,4 +180,17 @@ C:\Users\David Holberton\Downloads>dir  /o:gd jdk-*-x64.exe
                0 Dir(s)  371,693,105,152 bytes free
 
 C:\Users\David Holberton\Downloads>
+C:\Users\David Holberton\Downloads>dir /o:gd jdk-*-x64_bin.exe
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Users\David Holberton\Downloads
+
+03/15/2018  08:27 AM       393,799,736 jdk-9.0.4_windows-x64_bin.exe
+05/30/2018  06:26 AM       409,146,304 jdk-10.0.1_windows-x64_bin.exe
+07/24/2018  08:02 AM       409,204,592 jdk-10.0.2_windows-x64_bin.exe
+               3 File(s)  1,212,150,632 bytes
+               0 Dir(s)  371,692,826,624 bytes free
+
+C:\Users\David Holberton\Downloads>
 ```
