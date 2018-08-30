@@ -87,3 +87,71 @@ Binary Distributions
 08/29/2018  07:04 AM               849 apache-tomcat-9.0.11.exe.asc
 08/29/2018  07:05 AM               154 apache-tomcat-9.0.11.exe.sha512
 ```
+
+Looking further into the 32-bit vs 64-bit tomcat issue, I decided to look at the Windows Registry for the JDK keys associated with my installation of (multiple version) Oracle's Java JDK.  Note that I have never installed a 32-bit version of the JDK on my Windows 10 Dell XPS15 laptops.  Also note that I have never explicitly installed the Java JRE on this laptop (though installing the JDK results in the installation of the JRE).
+
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.8.0_131
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.8.0_144
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.8.0_162
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\1.8.0_172
+
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_131
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_144
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_162
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_172
+
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\JDK\9.0.4
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\JDK\10.0.1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\JRE\9.0.4
+HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\JDK\10.0.1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\JavaSoft
+```
+
+As to where I installed Java (the default location or a location of my choosing), I have had a different approach for some of the JDK installations I have performed.
+
+```
+C:\Program Files\Java>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\Program Files\Java
+
+06/08/2017  02:35 PM    <DIR>          jre1.8.0_131
+06/08/2017  02:35 PM    <DIR>          jdk1.8.0_131
+03/15/2018  09:42 AM    <DIR>          jdk1.8.0_162
+03/15/2018  09:44 AM    <DIR>          ..
+03/15/2018  09:44 AM    <DIR>          .
+03/15/2018  09:47 AM    <DIR>          jdk-9.0.4
+               0 File(s)              0 bytes
+               6 Dir(s)  371,690,299,392 bytes free
+
+C:\Program Files\Java>
+
+C:\LocalApps\Java>dir /o:gd
+ Volume in drive C has no label.
+ Volume Serial Number is 4603-A8D3
+
+ Directory of C:\LocalApps\Java
+
+03/15/2018  09:38 AM    <DIR>          jre1.8.0_144
+03/15/2018  09:38 AM    <DIR>          jdk1.8.0_144
+03/15/2018  09:42 AM    <DIR>          jre1.8.0_162
+03/15/2018  09:47 AM    <DIR>          jre-9.0.4
+03/15/2018  09:52 AM    <DIR>          jre1.8.0_131
+03/15/2018  09:52 AM    <DIR>          jdk1.8.0_131
+03/15/2018  09:53 AM    <DIR>          jdk1.8.0_162
+03/15/2018  09:53 AM    <DIR>          jdk-9.0.4
+06/19/2018  03:57 PM    <DIR>          jre-10.0.1
+06/19/2018  03:58 PM    <DIR>          jdk-10.0.1
+06/19/2018  06:24 PM    <DIR>          ..
+06/19/2018  06:24 PM    <DIR>          .
+06/19/2018  06:24 PM    <DIR>          jre1.8.0_172
+06/19/2018  06:24 PM    <DIR>          jdk1.8.0_172
+               0 File(s)              0 bytes
+              14 Dir(s)  371,689,791,488 bytes free
+
+C:\LocalApps\Java>
+```
